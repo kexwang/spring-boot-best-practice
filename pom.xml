@@ -28,7 +28,7 @@
         <module>spring-boot-elasticsearch</module>
         <module>spring-boot-session</module>
         <module>spring-boot-undertow</module>
-        <module>spring-boot-docker</module>
+<!--        <module>spring-boot-docker</module>-->
         <module>spring-boot-features</module>
         <module>spring-boot-application</module>
         <module>spring-boot-datasource</module>
@@ -52,7 +52,7 @@
         <module>spring-boot-war</module>
 		<module>spring-boot-actuator</module>
         <module>spring-boot-aop</module>
-        <module>spring-boot-ai</module>
+<!--        <module>spring-boot-ai</module>-->
     </modules>
 
     <packaging>pom</packaging>
@@ -97,17 +97,17 @@
 
     </dependencies>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.ai</groupId>
-                <artifactId>spring-ai-bom</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+<!--    <dependencyManagement>-->
+<!--        <dependencies>-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.ai</groupId>-->
+<!--                <artifactId>spring-ai-bom</artifactId>-->
+<!--                <version>1.0.0-SNAPSHOT</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
 
     <repositories>
         <repository>
